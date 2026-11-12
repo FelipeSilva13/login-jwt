@@ -1,0 +1,29 @@
+servcices:
+#  mysql:
+#    image:
+#      mysql:8.4
+#    container_name:
+#      login-jwt-mysql
+#    restart:
+#      unless-stopped
+#
+#    environment:
+#      MYSQL_ROOT_PASSWORD: root_local
+#      MYSQL_DATABASE: login_jwt
+#      MYSQL_USER: app_login
+#      MYSQL_PASSWORD: app_local
+#
+#    post:
+#        - "3306:3306"
+#
+#    volumes:
+#        - mysql_login_data:/var/lib/mysql
+#
+#    healthcheck:
+#        test: ["CMD", "mysqladmin", "ping", "h", "localhost", "-u", "root", "-proot_local"]
+#        interval: 10s
+#        timeout: 5s
+#        retires: 10
+#
+#volumes:
+#  mysql_login_data:
